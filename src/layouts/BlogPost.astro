@@ -8,7 +8,7 @@ import Header from '../components/Header.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, podcast } = Astro.props;
 ---
 
 <html lang="en">
@@ -52,6 +52,20 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			.last-updated-on {
 				font-style: italic;
 			}
+			.podcast-player {
+				margin: 1em 0;
+				padding: 1em;
+				background: rgba(var(--accent-light), 0.1);
+				border-radius: 8px;
+				border-left: 3px solid rgb(var(--accent));
+			}
+			.podcast-player h4 {
+				margin: 0 0 0.5em 0;
+				color: rgb(var(--accent));
+			}
+			.podcast-player audio {
+				width: 100%;
+			}
 		</style>
 	</head>
 
@@ -75,6 +89,16 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 							}
 						</div>
 						<h1>{title}</h1>
+						{podcast && (
+							<div class="podcast-player">
+								<h4>🎧 Versión podcast para el auto</h4>
+								<audio controls preload="none">
+									<source src={podcast} type="audio/mp4" />
+									<source src={podcast} type="audio/mpeg" />
+									Tu navegador no soporta el elemento de audio. <a href={podcast}>Descargar audio</a>
+								</audio>
+							</div>
+						)}
 						<hr />
 					</div>
 					<slot />

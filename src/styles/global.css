@@ -153,3 +153,100 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+/* Custom styles for Cafés de Arquitectura */
+.hero {
+	text-align: center;
+	padding: 2em 0 3em 0;
+	border-bottom: 1px solid rgb(var(--gray-light));
+	margin-bottom: 2em;
+}
+
+.hero h1 {
+	margin-bottom: 0.5em;
+	font-size: 3.5em;
+}
+
+.subtitle {
+	font-size: 1.2em;
+	color: rgb(var(--gray));
+	margin: 0;
+}
+
+.intro, .authors, .audience, .cta {
+	margin-bottom: 3em;
+}
+
+.author-cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2em;
+	margin-top: 1em;
+}
+
+.author-card {
+	background: rgba(var(--gray-light), 30%);
+	padding: 1.5em;
+	border-radius: 8px;
+	border-left: 4px solid var(--accent);
+}
+
+.author-card h3 {
+	margin-bottom: 0.5em;
+	color: var(--accent-dark);
+}
+
+.audience-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2em;
+	margin-top: 1em;
+}
+
+.for-you, .not-for-you {
+	padding: 1.5em;
+	border-radius: 8px;
+}
+
+.for-you {
+	background: rgba(34, 197, 94, 0.1);
+	border-left: 4px solid #22c55e;
+}
+
+.not-for-you {
+	background: rgba(239, 68, 68, 0.1);
+	border-left: 4px solid #ef4444;
+}
+
+.cta {
+	text-align: center;
+	padding: 2em 0;
+}
+
+.cta-button {
+	display: inline-block;
+	padding: 1em 2em;
+	background: var(--accent);
+	color: white;
+	text-decoration: none;
+	border-radius: 8px;
+	font-weight: 700;
+	margin-top: 1em;
+	transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+	background: var(--accent-dark);
+	color: white;
+}
+
+@media (max-width: 720px) {
+	.author-cards, .audience-grid {
+		grid-template-columns: 1fr;
+		gap: 1em;
+	}
+	
+	.hero h1 {
+		font-size: 2.5em;
+	}
+}

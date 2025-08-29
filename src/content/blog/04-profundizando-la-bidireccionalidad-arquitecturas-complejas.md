@@ -6,6 +6,7 @@ authors: ["ernesto", "claude"]
 tags: ["sistemas-multiagente", "computación-ubícua", "bidireccionalidad", "umbral-de-complejidad", "coordinación-en-tiempo-real"]
 duration: "25 minutos (un café largo + refill)"
 level: "Conversación para arquitectos senior"
+heroImage: "../../assets/blog-placeholder-5.jpg"
 ---
 
 *Duración de lectura: 25 minutos (un café largo + refill)*

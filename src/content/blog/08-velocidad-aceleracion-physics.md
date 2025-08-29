@@ -6,6 +6,7 @@ authors: ["ernesto", "claude"]
 tags: ["física-estratégica", "aceleración", "crecimiento-compuesto", "ai-native", "estrategia-tecnológica"]
 duration: "18–20 minutos (un café)"
 level: "Conversación para arquitectos senior"
+heroImage: "../../assets/blog-placeholder-3.jpg"
 ---
 
 *Physics thinking applied to technology strategy — ideas nacidas de nuestras conversaciones en el podcast.*

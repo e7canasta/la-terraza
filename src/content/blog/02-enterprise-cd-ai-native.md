@@ -6,6 +6,7 @@ authors: ["ernesto", "claude"]
 tags: ["perspectiva-histórica", "evolución-metodológica", "reconocimiento-de-patrones", "ai-native"]
 duration: "18 minutos (un café largo)"
 level: "Conversación para arquitectos senior"
+heroImage: "../../assets/blog-placeholder-2.jpg"
 podcast: "/podcasts/02_Del_CD_a_la_IA__El_Renacimiento_Metodológico_en_el_Desarrollo_de_Software_y_su_Colaboración_con_la_I.m4a"
 ---
 

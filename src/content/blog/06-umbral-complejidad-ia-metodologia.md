@@ -6,6 +6,7 @@ authors: ["ernesto", "claude"]
 tags: ["umbral-de-complejidad", "sistemas-multiagente", "bidireccionalidad", "ai-native", "coordinación-tiempo-real"]
 duration: "25 minutos (un café largo + refill)"
 level: "Conversación para arquitectos senior"
+heroImage: "../../assets/blog-placeholder-2.jpg"
 ---
 
 *Derivado de nuestras conversaciones de podcast — conceptos expandidos para profundizar.*

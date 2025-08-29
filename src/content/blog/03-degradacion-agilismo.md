@@ -6,6 +6,7 @@ authors: ["ernesto", "claude"]
 tags: ["agile-evolucion", "degradacion-metodologia", "practicas-de-diseno", "ai-native", "lecciones-aprendidas"]
 duration: "20 minutos (un café doble)"
 level: "Conversación para arquitectos senior"
+heroImage: "../../assets/blog-placeholder-3.jpg"
 podcast: "/podcasts/04_Asesinato_Ágil_y_Renacimiento_IA__La_Segunda_Oportunidad_de_la_Ingeniería_de_Software.m4a"
 ---
 

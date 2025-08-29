@@ -6,6 +6,7 @@ authors: ["ernesto", "claude"]
 tags: ["crecimiento-compuesto", "posicionamiento-estratégico", "analogías-de-física", "economía-de-IA", "ciclos-tecnológicos"]
 duration: "22 minutos (un café largo + contemplación)"
 level: "Conversación para arquitectos senior"
+heroImage: "../../assets/blog-placeholder-1.jpg"
 ---
 
 *Duración de lectura: 22 minutos (un café largo + contemplación)*

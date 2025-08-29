@@ -6,6 +6,7 @@ authors: ["ernesto", "claude"]
 tags: ["filosofía", "metodología", "ai-native", "discurso-profesional"]
 duration: "15 minutos (un café)"
 level: "Conversación para arquitectos senior"
+heroImage: "../../assets/blog-placeholder-1.jpg"
 podcast: "/podcasts/01_IA_y_Arquitectura__El_Renacer_de_la_Metodología_en_la_Era_AI-Nativa.m4a"
 ---
 

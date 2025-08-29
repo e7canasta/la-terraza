@@ -1,6 +1,8 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
+import { Image } from 'astro:assets';
+import ernesto from '../assets/me.png';
 ---
 
 <header>
@@ -8,12 +10,12 @@ import HeaderLink from './HeaderLink.astro';
 		<h2><a href="/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<HeaderLink href="/">Inicio</HeaderLink>
-			<HeaderLink href="/blog">Conversaciones</HeaderLink>
-			<HeaderLink href="/about">Acerca de</HeaderLink>
+			<HeaderLink href="/la-terraza/blog">Conversaciones</HeaderLink>
+			<HeaderLink href="/la-terraza/about">Acerca de</HeaderLink>
 		</div>
 		<div class="social-links">
 			<a href="https://github.com/e7canasta" target="_blank" class="avatar-link">
-				<img src="/src/assets/ernesto.png" alt="Ernesto" class="avatar" />
+				<Image src={ernesto} alt="Ernesto" width="32" height="32" class="avatar" />
 			</a>
 		</div>
 	</nav>
